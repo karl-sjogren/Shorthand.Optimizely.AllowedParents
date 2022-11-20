@@ -1,7 +1,7 @@
 ﻿using EPiServer;
 using EPiServer.DataAbstraction;
 using Microsoft.Extensions.DependencyInjection;
-using Shorthand.Optimizely.AllowedParents.Attributes.Services;
+using Shorthand.Optimizely.AllowedParents.Services;
 
 namespace Shorthand.Optimizely.AllowedParents;
 
