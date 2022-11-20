@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C9375EB5-DA00-4CE0-8C1C-D5B2E120F786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shorthand.Optimizely.AllowedParents", "src\Shorthand.Optimizely.AllowedParents\Shorthand.Optimizely.AllowedParents.csproj", "{3429023A-5763-4E78-B094-8615EFAFCB7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{14BAE018-A35A-44DE-A032-7A7986AA9085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shorthand.Optimizely.AllowedParents.Tests", "test\Shorthand.Optimizely.AllowedParents.Tests\Shorthand.Optimizely.AllowedParents.Tests.csproj", "{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3429023A-5763-4E78-B094-8615EFAFCB7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3429023A-5763-4E78-B094-8615EFAFCB7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3429023A-5763-4E78-B094-8615EFAFCB7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3429023A-5763-4E78-B094-8615EFAFCB7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3429023A-5763-4E78-B094-8615EFAFCB7E} = {C9375EB5-DA00-4CE0-8C1C-D5B2E120F786}
+		{3C5F7989-679D-4A9A-8D90-3CBF5F25C7CE} = {14BAE018-A35A-44DE-A032-7A7986AA9085}
+	EndGlobalSection
+EndGlobal
