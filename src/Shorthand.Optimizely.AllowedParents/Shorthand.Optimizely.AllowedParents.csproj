@@ -14,7 +14,13 @@
     <PackageProjectUrl>https://github.com/karl-sjogren/Shorthand.Optimizely.AllowedParents</PackageProjectUrl>
 	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageId>Shorthand.Optimizely.AllowedParents</PackageId>
+
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="../../README.md" Pack="true" PackagePath="\"/>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="EPiServer.Cms.AspNetCore" Version="12.0.3" />
