@@ -6,8 +6,8 @@ Optimizely 12 but could possibly be adapted to earlier versions quite easily.
 ## Installation
 
 ```sh
-> dotnet add package RobotsTxtCore
-````
+> dotnet add package Shorthand.Optimizely.AllowedParents
+```
 
 ## Usage
 
