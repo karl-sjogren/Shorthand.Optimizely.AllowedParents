@@ -1,6 +1,7 @@
 # Shorthand.Optimizely.AllowedParents
 
-Attributes and services to stop blocks from being created anywhere.
+Attributes and services to stop blocks from being created anywhere. Built for
+Optimizely 12 but could possibly be adapted to earlier versions quite easily.
 
 ## Installation
 
