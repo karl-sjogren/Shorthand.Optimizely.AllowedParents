@@ -9,6 +9,11 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+
+    <Authors>Karl-Johan Sjögren</Authors>
+    <PackageProjectUrl>https://github.com/karl-sjogren/Shorthand.Optimizely.AllowedParents</PackageProjectUrl>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>Shorthand.Optimizely.AllowedParents</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
