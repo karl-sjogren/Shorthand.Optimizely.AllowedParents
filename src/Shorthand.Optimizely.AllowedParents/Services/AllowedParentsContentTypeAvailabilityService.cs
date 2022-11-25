@@ -40,6 +40,10 @@ public class AllowedParentsContentTypeAvailabilityService : ContentTypeAvailabil
         var filteredTypes = availableTypes.Where(contentType => {
             var modelType = contentType.ModelType;
 
+            if(modelType == null) {
+                return true;
+            }
+
             var hasDisallowAttribute = modelType.GetCustomAttributes(typeof(AllowNoParentsAttribute), true).Any();
             if(hasDisallowAttribute) {
                 return false;
